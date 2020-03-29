@@ -1,0 +1,15 @@
+ls 列出目标路径下的内容
+用法：ls [路径]... [选项]...
+
+-l --line 对每个子路径，以详细信息在单独一行显示
+-r --recursive 广度优先递归列举
+
+例：
+ls c:/Program  /file    // 绝对路径
+ls subdir               // 相对路径
+ls ..                   // 上一级
+ls ....                 // 上三级
+ls path -l              // 以行列举
+ls dir -r               // 递归列举
+
+PS: ls <=> ls .

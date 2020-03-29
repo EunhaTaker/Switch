@@ -1,0 +1,163 @@
+
+/* App.vue */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+
+/* for show.vue */
+
+#show-page {     
+    height: 100%;
+    /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background: linear-gradient(-45deg, #ffc8c3, #bca3e0, #c6d4ff, #C7EDE9);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite; */
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+#show-page *{
+    float: left;
+    /* overflow-y: auto; */
+    /* overflow-x: hidden; */
+    /* -webkit-overflow-scrolling: touch;   */
+}
+#show-page img{
+    width: 100%;
+}
+#display-content{
+    display: inline-block;
+    border-radius: 10px;
+    /* background-color: aqua; */
+}
+.menu{
+    position: absolute;
+    clear: left;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px 10px rgba(50, 50, 50, 0.3);
+}
+.menu-item{
+    height: 20px;
+    width: 140px;
+    display:block;
+}
+.menu-item-unclickable{
+    color: #8FA1B3;
+}
+.menu-item-clickable:hover{
+    background-color: aquamarine
+}
+.text{
+    
+}
+.icon-icon{
+    width: 100%;
+    height: 80%;
+}
+.icon-text{
+    width: 100%;
+    height: 20%;
+}
+.tag{
+    /* width: 25%; */
+    height: 20%;
+}
+
+.disk{
+    /* width: 25%; */
+    height: 20%;
+    float: left;
+}
+.disk-progress{
+    width: 80%;
+    height: 70%;
+    background-color: #F0F0F0;
+    border: 1px solid #8FA1B3;
+    float: left;
+    border-radius: 30px;
+}
+.disk-text{
+    width: 80%;
+    height: 30%;
+    font-size: small;
+    float: left;
+}
+progress::-moz-progress-bar{
+    /* background:cyan; */
+    border-radius: 30px;
+}
+
+/* for terminal.vue */
+
+#terminal{
+    background-color: #002B36; 
+    text-align: left;
+    color: #F4ECEC;
+    font-family: "Consolas";
+    font-size: smaller;
+    
+    height: 100%;
+    right: 0;
+    
+    position: fixed;
+    overflow-y: auto; 
+    overflow-x: hidden;
+}
+#terminal-bar{
+    height: 3%;
+    width: 100%;
+    /* position: fixed; */
+    left: 0;
+    top: 0;
+}
+#terminal-bar img{
+    height: 100%;
+}
+#command-input{
+    background-color: #002B36; 
+    color: #FFFFFF;
+    font-family: "Consolas";
+    /* border: none; */
+    outline: none;
+    /* width: 60%; */
+    /* height: 80px; */
+    /* cursor: pointer; */
+}
+#input-part{
+    /* width: 100%; */
+}
+#input-part div{
+    float: left;
+}
+#prompt{
+    /* height: 40px; */
+    /* width: 20%; */
+}
+#advice-part {
+    clear: left;
+}
+#advice-part span{
+    margin-right: 10px;
+}

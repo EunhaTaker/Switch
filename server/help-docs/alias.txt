@@ -1,0 +1,11 @@
+alias 设置/查看别名
+用法：alias [-l/-d 别名] [别名 "指代命令"]
+
+-l --look 查看别名（alias -l 查看所有别名）
+-d --del  删除别名
+
+例：
+alias ll "ls -l"    // 用ll替代ls -l
+alias -l ll         // 查看别名ll的指代
+alias -l            // 查看全部别名
+alias -d ll         // 删除别名ll

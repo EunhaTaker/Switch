@@ -1,0 +1,1 @@
+{"opt": {"--line": "-l", "--recursive": "-r", "--parent": "-p", "--color": "-c", "--name": "-n", "--add": "-a", "--del": "-d", "--list": "-l"}, "cmd": {"copy": "cp", "move": "mv", "ll": "ls -l", "la": "ls -a", "aa": "bb", "bb": "cc", "cc": "aa", "aaaa=ls -l": null, "aaaa=ls -la": null, "aaaa": "ls -la"}}

@@ -1,0 +1,16 @@
+{
+    "": "用户设置",
+    
+    "client": {
+        "": "客户端设置",
+        "server": "http://127.0.0.1",
+        "port": 3999
+    },
+
+    "server": {
+        "": "服务端设置",
+        "root": "D:/Users/joyfun",
+        "port": 3999,
+        "IP_whitelists": ["*"]
+    }
+}

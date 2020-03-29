@@ -1,0 +1,52 @@
+
+#terminal{
+    background-color: #002B36; 
+    text-align: left;
+    color: #F4ECEC;
+    font-family: "Consolas";
+    font-size: smaller;
+    
+    height: 100%;
+    right: 0;
+    
+    position: fixed;
+    overflow-y: auto; 
+    overflow-x: hidden;
+}
+#terminal-bar{
+    height: 3%;
+    width: 100%;
+    /* position: fixed; */
+    left: 0;
+    top: 0;
+}
+#terminal-bar img{
+    height: 100%;
+}
+#command-input{
+    background-color: #002B36; 
+    color: #FFFFFF;
+    font-family: "Consolas";
+    font-weight: bold;
+    /* border: none; */
+    outline: none;
+    /* width: 60%; */
+    /* height: 80px; */
+    /* cursor: pointer; */
+}
+#input-part{
+    /* width: 100%; */
+}
+#input-part div{
+    float: left;
+}
+#prompt{
+    /* height: 40px; */
+    /* width: 20%; */
+}
+#advice-part {
+    clear: left;
+}
+#advice-part span{
+    margin-right: 10px;
+}

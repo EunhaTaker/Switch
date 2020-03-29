@@ -1,0 +1,6 @@
+modtag 修改标签属性
+用法：modtag 标签名 [选项=值]...
+
+-n --name 修改名称
+-c --color 修改颜色
+-p --parent 修改父标签
